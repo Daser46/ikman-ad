@@ -11,7 +11,7 @@ export default function Home() {
         src={background}
         alt="background"
         fill
-        className="object-cover hover:scale-105 transition-all duration-500"
+        className="object-cover "
       />
       <Image
         src={word}
@@ -25,7 +25,7 @@ export default function Home() {
         alt="button"
         width={100}
         height={100}
-        className="absolute bottom-2 right-3 animate-pulse hover:brightness-110 hover:rotate-3 transition-all duration-50"
+        className="absolute bottom-2 right-3 animate-pulse hover:brightness-110 transition-all duration-50"
       />
     </div>
   );
